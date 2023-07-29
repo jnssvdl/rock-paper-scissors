@@ -22,7 +22,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}   
+}
 
 .footer {
     height: 40px;
@@ -41,7 +41,7 @@ body {
 }
 
 .display {
-    font-size: 40px;
+    font-size: 32px;
     margin: 20px;
 }
 
@@ -114,6 +114,15 @@ body {
     background: #BBBBBB;
 }
 
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 #new-game {
     display: flex;
     align-items: center;
@@ -129,9 +138,11 @@ body {
 
 #new-game:hover {
     cursor: pointer;
-    transform: scale(1.25);
+    transform: scale(1.25) rotate(0deg);
     background: #D1D1D1;
+    animation: spin 1s linear infinite;
 }
+
 
 
 
