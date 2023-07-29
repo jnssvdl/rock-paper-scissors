@@ -4,6 +4,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     text-align: center;
 }
 
@@ -60,9 +61,10 @@ body {
 }
 
 #player-selection, #computer-selection {
-    font-size: 160px;
-    height: 100px;
-    width: 100px;
+    border: 1px solid black;
+    font-size: 120px;
+    height: 200px;
+    width: 200px;
 }
 
 .button-container {
