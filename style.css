@@ -61,7 +61,6 @@ body {
 }
 
 #player-selection, #computer-selection {
-    border: 1px solid black;
     font-size: 120px;
     height: 200px;
     width: 200px;
